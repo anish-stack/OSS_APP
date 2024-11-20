@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Om Sri Sale Solutions",
+    "slug": "OmSriSaleSolutions",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./images/logo.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "omsai"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./images/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.prabhats1410.mobileapp"
+    },
+    "web": {
+      "favicon": "./images/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c7136ec9-7a3c-4df9-a4aa-4870e863e362"
+      }
+    }
+  }
+}
